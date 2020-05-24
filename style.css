@@ -1,13 +1,13 @@
 body {
-	background-color: black;
-	color: #ddd;
-	font-family: verdana, tahoma, arial, helvetica;
+	background-color: whitesmoke;
+	color: whitesmoke;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12pt;
 }
 
 @media (min-width: 1000px) {
 	#container {
-		max-width: 60%;
+		max-width: 90%;
 	}
 }
 
@@ -16,7 +16,7 @@ body {
 	(min-resolution: 192dpi) {
 
 	body {
-		font-size: 10pt;
+		font-size: 12pt;
 	}
 	
 	img {
@@ -62,7 +62,7 @@ img {
 #logo_container p {
 	text-align: center;
 	color: #444;
-	font-size: 10pt;
+	font-size: 12pt;
 	font-style: italic;
 	padding: 0;
 	margin: 5px;
