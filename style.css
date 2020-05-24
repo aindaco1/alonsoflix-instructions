@@ -50,7 +50,7 @@ p.h3 {
 }
 
 img {
-	max-width: 30%;
+	max-width: 15%;
 	height: auto;
 	display: block;
 	margin-left: auto;
@@ -61,8 +61,8 @@ img {
 
 #logo_container p {
 	text-align: center;
-	color: #444;
-	font-size: 12pt;
+	color: grey;
+	font-size: 8pt;
 	font-style: italic;
 	padding: 0;
 	margin: 5px;
