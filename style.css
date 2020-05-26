@@ -22,10 +22,9 @@ body {
 	}
 }
 
-@media only screen and (max-device-width: 1024px) {
+@media (max-device-width: 1024px) {
 	img {
-		max-width: 30% !important;
-		margin: auto !important;
+		max-width: 50% !important;
 	}
 	#logo_container {
 		text-align: center !important;
@@ -35,7 +34,7 @@ body {
 	}
 }
 
-@media only screen and (max-device-width: 768px) {
+@media (max-device-width: 768px) {
 	#nav {
 		font-size: 24px !important;
 	}
@@ -77,19 +76,19 @@ p.h3 {
 }
 
 img {
-	max-width: 10%;
+	max-width: 20%;
 	height: auto;
 	display: block;
-	margin-left: 20px;
+	margin: auto !important;
 	padding: 0;
 }
 
 #logo_container p {
 	color: white;
 	font-size: 8pt;
+	text-align: center;
 	font-style: italic;
 	padding: 0;
-	margin-left: 20px;
 }
 
 #logo_container p a {
