@@ -669,7 +669,7 @@ premium services
 
 ### Premium Link Hosts
 - [File sharing table](https://nafanz.github.io/) Regularly updated table of information about file hosts.
-- [Mega](https://mega.nz/) :star2:
+- [Mega](https://mega.nz/)
 - [OpenLoad](https://openload.co/)
 - [RapidGator](https://rapidgator.net/)
 - [4shared](https://www.4shared.com/)
