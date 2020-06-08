@@ -8,6 +8,7 @@
 		<script type="text/javascript">
 		//alert(window.innerWidth*window.devicePixelRatio);
 		</script>
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	</head>
 	<body>
 		<div id="container">
@@ -23,8 +24,9 @@
                     <li><a href="#quality">Playback Quality</a></li>
                     <li><a href="#libraries">Libraries</a></li>
                     <li><a href="#navigation">Navigation</a></li>
-                    <li><a href="#advanced">Advanced</a></li>
-                    <li><a href="secret-knowledge.md">Shh!</a></li>
+					<li><a href="#advanced">Advanced</a></li>
+					<li><a href="#request">Make a Request</a></li>
+                    <li><a href="secret/secret-knowledge.html">Shh!</a></li>
                 </ul>
             </div>
 		<div id="content">
@@ -78,6 +80,39 @@
 <!-- Advanced -->
 			<h2 id="advanced">Advanced</h2>
 			<p>Plex makes use of a technology called <em>transcoding</em> to dynamically decode and re-encode media in real time in order to accommodate a wide variety of playback hardware, software and internet speeds. In the settings for your player, you can make adjustments to what your Plex client requests from the server for playback quality. If your device and internet connection are capable, you can change the setting for <em>Remote Playback Quality</em> to <em>Original</em>. This will ensure you get the best possible viewing experience and also puts less strain on my server as it doesn't have to work as hard to deliver your content.</p>
+<!-- Make a Request -->
+			<h2 id="request">Make a Request!</h2>
+			<p class="required">* means it's required.</p>
+			</br>
+			<form action="https://formspree.io/xpzydgyv" method="POST">
+				<label for="name"><b>Your name</b> *</label>
+				<br/>
+				<br/>
+				<input type="text" name="name" size="50" required>
+				<br/>
+				<br/>
+				<label for="request"><b>Name of the media you're requesting</b> *</label>
+				<br/>
+				<br/>
+				<input type="text" name="request" size="50" required>
+				<br/>
+				<br/>
+				<label for="url"><b>Link to the IMDB or Last.fm</b></label>
+				<br/>
+				<br/>
+				<input type="url" name="url" size="100">
+				<br/>
+				<br/>
+				<label for="rationale"><b>Why?</b></label>
+				<br/>
+				<br/>
+				<textarea name="rationale" cols="100" rows="10"></textarea>
+				<br/>
+				<br/>
+				<div class="g-recaptcha" data-sitekey="your_site_key"></div>
+				<br/>
+				<input type="submit" value="Request">
+  			</form>
 		</div>
 		</div>
 	</body>
